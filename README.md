@@ -1,2 +1,2 @@
 # TADS2026
-qualquer galera
+qualquer coisa galera
