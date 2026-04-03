@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantos dias você já viveu?</title>
+</head>
+<body>
+    <script>
+        let id = Number(window.prompt("Informe sua idade (apenas os anos completos)"));
+        if (isNaN(id)) {
+            alert("Valor inválido");
+        } else if (id <= 0) {
+            alert("Valor inválido");
+        } else {
+            let px = (id * 365);
+            window.alert(`Você já viveu aproximadamente por: ${px} dias`)
+        }
+    
+    </script>
+</body>
+</html>
